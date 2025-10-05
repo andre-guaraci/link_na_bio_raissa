@@ -24,12 +24,14 @@ body::before {
 
 .hero-bg-section {
     position: relative;
-    min-height: 520px; /* AJUSTE AQUI: altura padrão */
+    min-height: 640px; /* AJUSTE AQUI: altura padrão */
     height: 50vh;      /* AJUSTE AQUI: proporção em relação à altura da tela */
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('/img/bem_vindo_3.png') center no-repeat;  
+    background: 
+    url('/img/bem_vindo_3.png') center no-repeat,
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(146, 95, 1, 0.20));  
     background-size: contain;      /* "cover" preenche sem distorcer; use "contain" para ver a imagem inteira */
     background-position: center top;
     border-bottom-left-radius: 2rem;
@@ -185,11 +187,13 @@ body::before {
 .link-image-card {
   box-shadow: 0 10px 15px -3px rgba(251, 80, 7, 0.18), 0 4px 6px -2px rgba(0,0,0,0.25);
   transition: transform 0.2s, box-shadow 0.2s, filter 0.3s;
+  background: #111 !important;
 }
 .link-image-card:hover {
   transform: scale(1.07);
   box-shadow: 0 15px 32px 0 rgba(251,80,7,0.32), 0 6px 12px -2px rgba(0,0,0,0.37);
   filter: brightness(1.06);
+  background: #111  !important;
 }
 
 .responsive-image-card {
@@ -208,7 +212,7 @@ body::before {
         outline 0.2s;
     max-width: 800px;
     width: 100%;
-    background: #111;
+    background: #111 !important;
 }
 
 .responsive-image-card:hover,
