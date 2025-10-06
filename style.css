@@ -30,8 +30,7 @@ body::before {
     align-items: center;
     justify-content: center;
     background: 
-    url('/img/bem_vindo_3.png') center no-repeat,
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(146, 95, 1, 0.20));  
+    url('/img/bem_vindo_3.png') center no-repeat; 
     background-size: contain;      /* "cover" preenche sem distorcer; use "contain" para ver a imagem inteira */
     background-position: center top;
     border-bottom-left-radius: 2rem;
