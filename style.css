@@ -22,32 +22,22 @@ body::before {
     background: linear-gradient(180deg, #700261 0%, #700261 100%);
 }
 
+
 .hero-bg-section {
     position: relative;
-    min-height: 640px; /* AJUSTE AQUI: altura padrão */
+    min-height: 520px; /* AJUSTE AQUI: altura padrão */
     height: 50vh;      /* AJUSTE AQUI: proporção em relação à altura da tela */
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: 
-    url('/img/bem_vindo_3.png') center no-repeat; 
-    background-size: contain;      /* "cover" preenche sem distorcer; use "contain" para ver a imagem inteira */
+    justify-content: center;  
+    background: url('/img/bem_vindo_3.png') center no-repeat;        
+    background-size: contain;      /* "cover" preenche sem distorcer; use "contain" para ver a imagem inteira*/ 
     background-position: center top;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     box-shadow: 0 8px 36px 0 rgba(0,0,0,0.18);
 }
 
-/* Overlay escuro adicional (caso sua imagem seja clara demais) */
-.hero-bg-section::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: url('/img/bg_hero_section_raissa.png') center no-repeat;
-    /*background: linear-gradient(90deg, #141414cc 0%, transparent 0%);*/
-    z-index: 1;
-    pointer-events: none;
-}
 
 .hero-bg-content {
     position: relative;
