@@ -26,11 +26,11 @@ body::before {
 .hero-bg-section {
     position: relative;
     min-height: 520px; /* AJUSTE AQUI: altura padrão */
-    height: 50vh;      /* AJUSTE AQUI: proporção em relação à altura da tela */
+    height: 200vh;      /* AJUSTE AQUI: proporção em relação à altura da tela */
     display: flex;
     align-items: center;
     justify-content: center;  
-    background: url('/img/bem_vindo_3.png') center no-repeat;        
+    background: url('/img/hero.png') center no-repeat;        
     background-size: contain;      /* "cover" preenche sem distorcer; use "contain" para ver a imagem inteira*/ 
     background-position: center top;
     border-bottom-left-radius: 2rem;
